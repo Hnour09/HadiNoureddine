@@ -49,7 +49,7 @@ const Hero = memo(() => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: prefersReducedMotion ? 0.3 : 1, delay: prefersReducedMotion ? 0 : 0.5 }}
-          className="mb-12"
+          className="mt-12 mb-0"
         >
           <div className="text-white-100 text-xs tracking-[0.3em] uppercase h-5 overflow-hidden">
             <AnimatePresence mode="wait">
@@ -106,7 +106,7 @@ const Hero = memo(() => {
         </motion.div>
 
         {/* CTA Buttons */}
-        <div className="mt-16 md:mt-34 lg:mt-40">
+        <div className="mt-24 md:mt-44 lg:mt-52">
           <CosmicButtons />
         </div>
 

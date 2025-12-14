@@ -149,7 +149,7 @@ const ExperienceCard = React.memo(({ card, index }: { card: any; index: number }
             <span>•</span>
             <span className="text-sm">{card.period}</span>
             <span>•</span>
-            <span className="text-sm">{card.location}</span>
+            <span className="text-sm text-purple">{card.location}</span>
           </div>
 
           <p className="text-white-100 leading-relaxed mb-6 font-light">
@@ -176,7 +176,7 @@ const ExperienceCard = React.memo(({ card, index }: { card: any; index: number }
             {card.technologies.map((tech: string) => (
               <span
                 key={tech}
-                className="px-3 py-1 text-xs rounded-full bg-white/[0.05] border border-white/[0.1] text-white-200"
+                className="px-3 py-1 text-xs rounded-full bg-white/[0.05] border border-white/[0.1] text-purple"
               >
                 {tech}
               </span>
